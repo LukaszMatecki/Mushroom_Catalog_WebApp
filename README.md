@@ -212,7 +212,6 @@ http://localhost:3000
 ```
 
 <div align="center">
-
 ### Authors / Autorzy
 
 | Role | Name | GitHub |
@@ -221,11 +220,9 @@ http://localhost:3000
 | **Database Developer** | **Zuzanna Wyszogrodzka** | [GitHub Profile](https://github.com/ZuzannaWyszo) |
 | **Backend Developer** | **Agata Marcinskowska** | [GitHub Profile](https://github.com/agamarcin) |
 | **Backend Developer** | **Jakub Wawszczyk** | [GitHub Profile](https://github.com/JakubWawa) |
-
 <br>
 <i>Project created for educational purposes.</i>
-</div>|
-
+</div>
 
 
 
