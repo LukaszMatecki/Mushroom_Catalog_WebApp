@@ -92,7 +92,7 @@ mvn spring-boot:run
 ```
 
 Backend działa na:
-```bash
+```arduino
 http://localhost:8080
 ```
 #### Frontend (React)
@@ -109,7 +109,104 @@ npm install
 npm start
 ```
 #### Frontend działa na:
+```arduino
+http://localhost:3000
+```
+
+---
+
+## English Version
+
+## About the Project
+
+**Mushroom Atlas** is a web application for cataloging mushrooms, built with a **Spring Boot backend and React frontend**.  
+It allows users to browse mushrooms, view detailed information and recipes, and add their own entries.
+
+The goal of the project was to create a full-stack CRUD system with database integration and a modern, user-friendly interface.
+
+### Key Features
+
+- Tile-based mushroom catalog
+- Detailed mushroom view with images and description
+- Recipe system linked to specific mushrooms
+- User-added mushroom form
+- Separate section for user-submitted mushrooms
+- Filtering and sorting by name, category, and type
+- Dark-themed UI with Lato font
+- Tab-based navigation
+- 3D rotating mushroom model on scroll
+
+### Backend
+
+- Spring Boot REST API
+- Controller: `GrzybController`
+- Database tables:
+  - `grzyb`
+  - `przepis`
+  - `kategoria`
+  - `obrazek`
+- Endpoints for:
+  - fetching lists
+  - fetching details
+  - adding new entries
+
+### Frontend
+
+- React SPA
+- Communicates with backend via REST API
+- Views include:
+  - mushroom catalog
+  - recipes
+  - add mushroom form
+  - detailed mushroom view
+
+### Tech Stack
+
+**Backend:**
+- Java
+- Spring Boot
+- Spring Data JPA
+- SQL Database
+
+**Frontend:**
+- React
+- CSS / Flexbox
+- Fetch API / Axios
+
+**3D Assets:**
+- Blender
+
+### How to Run
+
+#### Backend
+
+1. Open the project in IntelliJ / Eclipse  
+2. Configure the database in `application.properties`  
+3. Start the backend server:
+
 ```bash
+mvn spring-boot:run
+```
+
+The backend runs at:
+```arduino
+http://localhost:8080
+```
+#### Frontend (React)
+1. Navigate to the frontend folder:
+```bash
+cd frontend
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the frontend:
+```bash
+npm start
+```
+#### The frontend runs at:
+```arduino
 http://localhost:3000
 ```
 
