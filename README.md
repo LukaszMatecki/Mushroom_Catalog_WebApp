@@ -89,3 +89,30 @@ Celem projektu było stworzenie pełnego systemu CRUD z nowoczesnym interfejsem,
 
 ```bash
 mvn spring-boot:run
+```
+
+Backend działa na:
+```bash
+http://localhost:8080
+```
+#### Frontend (React)
+1. Przejdź do folderu frontendu:
+```bash
+cd frontend
+```
+2. Zainstaluj zależności:
+```bash
+npm install
+```
+3. Uruchom aplikację:
+```bash
+npm start
+```
+#### Frontend działa na:
+```bash
+http://localhost:3000
+```
+
+
+
+
