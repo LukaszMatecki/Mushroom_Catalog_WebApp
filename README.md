@@ -213,7 +213,7 @@ http://localhost:3000
 
 <div align="center">
  
-### Authors / Autorzy
+### Autorzy / Authors 
 
 | Role | Name | GitHub |
 |:---:|:---:|:---:|
