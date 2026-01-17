@@ -2,6 +2,7 @@
 
 # Mushroom Atlas 🍄
 
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Database](https://img.shields.io/badge/Database-SQL-blue?style=for-the-badge)
