@@ -224,6 +224,3 @@ http://localhost:3000
 <br>
 <i>Project created for educational purposes.</i>
 </div>
-
-
-
